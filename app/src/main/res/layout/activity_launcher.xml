@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LauncherActivity">
+
+    <Button
+        android:id="@+id/btnLaunchSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="launchSplash"
+        android:text="on Splash" />
+
+    <Button
+        android:id="@+id/btnLaunchLoader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="launchLoader"
+        android:text="as Loader" />
+
+    <Button
+        android:id="@+id/btnLaunchProgressLoader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="launchProgressLoader"
+        android:text="as Progress Loader @ Bottom" />
+
+</LinearLayout>
