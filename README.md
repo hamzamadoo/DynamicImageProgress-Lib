@@ -97,7 +97,7 @@ class ProgressActivity : AppCompatActivity() {
 ### 3. To Halt UI while Background Process (API/DB operations) is running
 ![](btL.gif)
 
-### xml
+#### xml
 ````
 <FrameLayout
         android:layout_width="100dp"
@@ -119,6 +119,7 @@ class ProgressActivity : AppCompatActivity() {
             android:src="@drawable/burger"/>
     </FrameLayout>
 ````
+#### kotlin
 ````
 class LoaderActivity : AppCompatActivity() {
 
@@ -140,7 +141,7 @@ class LoaderActivity : AppCompatActivity() {
 ````
 
 
-**Do Remember**
+## Usage
 1. As this is multi image loader, provide at least two images.
 2. By default The Delay and Period (For Image loading is 1000ms)<br>
 These value can be changed via xml
@@ -167,8 +168,9 @@ imgProgress.init(food)
 4. There are two ways to start dynamic image loading<br>
     <ol>
     <li> <b>As soon as init() function gets called ~ Automatically:</b><br>
-    automatic image loading can be started by setting "app:startOnInit" property to True<br><b>app:startOnInit="true"<b></li> <li><b> By calling startProgress() function ~ Manually:</b><br>
-    Manual image loading can be started by calling startProgress() on MultiImageProgress<br><b>imgProgress.startProgress()</li>
+    automatic image loading can be started by setting "app:startOnInit" property to True<br><b>app:startOnInit="true"</b></li> 
+    <li><b> By calling startProgress() function ~ Manually:</b><br>
+    Manual image loading can be started by calling startProgress() on MultiImageProgress<br><b>imgProgress.startProgress()</b></li>
 </ol>
 
 5. Dynamic image loading can be stopped (if required) by calling stopProgress on MultiImageProgress <br>
