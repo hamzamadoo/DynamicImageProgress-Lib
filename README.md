@@ -1,3 +1,6 @@
+[![](https://jitpack.io/v/hamzamadoo/DynamicImageProgress-Lib.svg)](https://jitpack.io/#hamzamadoo/DynamicImageProgress-Lib)
+
+
 ***
 # Multiple Images progress Dynamically
 ***
@@ -13,6 +16,26 @@ This Lib is designed to cater the demand of such ImageView , which can display m
 4. Wherever you want :)
 
 </B>
+***
+## Installation
+
+Add Jitpack to your project build.gralde file
+
+````      
+      allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+}
+````
+Then add this dependency to your app build.gradle file.
+````
+      dependencies {
+	        implementation 'com.github.hamzamadoo:DynamicImageProgress-Lib:latest-release'
+	}
+````
 
 ***
 ## Screenshots with Code
