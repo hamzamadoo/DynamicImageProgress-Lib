@@ -16,7 +16,8 @@ This Lib is designed to cater the demand of such ImageView , which can display m
 4. Wherever you want :)
 
 </B>
-***
+
+
 ## Installation
 
 Add Jitpack to your project build.gralde file
